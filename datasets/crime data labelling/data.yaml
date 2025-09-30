@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['abuse', 'arrest', 'arson', 'assault', 'burglary', 'explosion', 'fighting', 'road accidents', 'robbery', 'shooting', 'shoplifting', 'stealing', 'vandalism']
+
+roboflow:
+  workspace: utwente
+  project: crime-data-labelling
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/utwente/crime-data-labelling/dataset/1
